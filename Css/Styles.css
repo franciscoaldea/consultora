@@ -1,0 +1,351 @@
+/*Configuración general de la página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf2e7 !important;
+    padding-bottom: 80px;
+}
+
+.barra_superior{
+  width: 100%;
+  height: 40px;
+  background: #2b2f53;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar_xd{
+    
+    margin-top: 70px;                  
+    background: #faf2e7;
+    padding: 28px 35px;
+    position: relative;
+    z-index: 900;
+    border-radius: 20px;
+    border: 2px solid #3b3e6e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav_links a:hover{
+    color: #2b2f53;
+    transform: scale(1.05);
+}
+
+.nav_links .activo{
+    font-weight: 900;
+}
+
+.nav_boton{
+    padding: 8px 18px;
+    border: 2px solid #3b3e6e;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    font-weight: bold;
+    transition: 0.25s ease;
+}
+
+.nav_boton:hover{
+    background: #2b2f53;
+    color: white !important;
+    border-color: #2b2f53;
+}
+
+.nav_boton::before{
+    content: "•";
+    color: #2b2f53;
+    font-size: 20px;
+    line-height: 0;
+    transition: 0.25s ease;
+}
+
+.nav_boton:hover::before{
+    color: white !important;
+}
+
+.footer{
+  width: 100%;
+  background: #2b2f53;
+  color: white;
+  padding: 10px 0;
+  position: fixed;        
+  bottom: 0;             
+  left: 0;
+  z-index: 999;
+  position: fixed;
+}
+
+.footer_texto{
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo_escuela{
+    position: fixed;
+    right: 15px;
+    bottom: 50px;
+    width: 80px;
+}
+
+/*Configuración de la pagina de inicio*/
+.carrusel_67{
+    border-radius: 20px;
+    overflow: hidden;
+    border-top: 20px solid #2b2f53;
+    width: 500px; 
+    margin-top: 10px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.carrusel_67 img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.contenedor_principal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 30px;
+    padding-right: 120px;
+}
+
+.info{
+    flex: 1;
+}
+
+.logo_grande{
+    display: block; 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.presentacion{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/*Configuración de la pagina de presentación*/
+.presentacion_con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 80px;
+}
+
+.presentacion_tex{
+    flex: 1;
+}
+
+.presentacion_tex h1{
+    font-size: 48px;
+    color: #2b2f53;
+    margin-bottom: 20px;
+}
+
+.presentacion_tex p{
+    font-size: 16px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.contacto_btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #3b3e6e;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contacto_btn:hover{
+    background: #2b2f53;
+    color: white;
+}
+
+.presentacion_img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion_img img{
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/*Configuración de la pagina de servicios*/
+.servicios_con{
+    padding: 40px;
+    text-align: center;
+}
+
+.servicios_titulo{
+    font-size: 35px;
+    color: #2b2f53;
+    margin-bottom: 20px;
+}
+
+.cards_con{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap; 
+}
+
+.card{
+    width: 260px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card h3{
+    color: #2b2f53;
+    font-size: 14px;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+.card1{
+    background: #d9d9d9;
+}
+
+.card2{
+    background: #e6d8ff;
+}
+
+.card3{
+    background: #cdeeee;
+}
+
+.card4{
+    background: #f3c97a;
+}
+
+/*Configuración de la pagina de quienes somos*/
+.equipo_con{
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.equipo_titulo{
+    font-size: 28px;
+    color: #2b2f53;
+    margin-bottom: 40px;
+}
+
+.equipo_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.equipo_card{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px 20px; 
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.equipo_card:hover{
+    transform: translateY(-5px);
+}
+
+.equipo_card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.equipo_card h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #2b2f53;
+}
+
+.equipo_card p{
+    font-size: 15px;
+}
+
+/*fondoazo de qnes somos q qlimonbo adios odio tofdo*/
+.fondo_cuadricula{
+    background-color: #bed3ff !important;
+    background-image: 
+        linear-gradient(white 1px, transparent 1px),
+        linear-gradient(90deg, white 1px, transparent 1px);
+    background-size: 40px 40px; 
+}
