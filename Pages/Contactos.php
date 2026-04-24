@@ -1,0 +1,79 @@
+<?php
+include("../bdd/conexion.php");
+
+if(isset($_POST['enviar'])){
+    $nombre = $_POST['nombre'];
+    $email = $_POST['email'];
+    $mensaje = $_POST['mensaje'];
+
+    $sql = "INSERT INTO contactos (nombre, email, mensaje) 
+            VALUES ('$nombre', '$email', '$mensaje')";
+
+    $resultado = mysqli_query($conexion, $sql);
+
+    if($resultado){
+        echo "Datos guardados correctamente";
+    } else {
+        echo "Error al guardar";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Styles.css">
+    <title>Chefsito’s Consultoria</title>
+</head>
+<body>
+    <header>
+        <div class="barra_superior"></div>
+        
+        <nav class="navbar_xd">
+            <div class="nav_contenido">
+                <div class="logo">
+                <img src="#" alt="Logo">
+            </div>
+
+            <div class="nav_links">
+                <a href="../index.php" class="activo">Inicio</a>
+                <a href="../Pages/Presentacion.php">Presentación</a>
+                <a href="../Pages/Servicios.php">Servicios</a>
+                <a href="../Pages/Quienes_somos.php">Quienes somos</a>
+                <a href="../Pages/Contactos.php" class="nav_boton">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    </header>
+    
+
+</div>
+<div class="contacto_contenedor">
+    <h2 class="contacto_titulo">Contacto</h2>
+
+    <form method="POST" class="form_contacto">
+        
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        
+        <input type="email" name="email" placeholder="Email" required>
+        
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+        
+        <button type="submit" name="enviar">Enviar mensaje</button>
+    
+    </form>
+</div>
+    <footer>
+        <div class="footer">
+            <div class="footer_texto" id="footerAuto"></div>
+            <img src="./Img/logo escuela.png" class="logo_escuela" alt="Imagen no encontrada">
+        </div>
+
+        
+    </footer>
+    
+    <script src="../JS/Footer.js"></script>
+</body>
+</html>
