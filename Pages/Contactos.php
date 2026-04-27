@@ -27,53 +27,73 @@ if(isset($_POST['enviar'])){
     <link rel="stylesheet" href="../Css/Styles.css">
     <title>Chefsito’s Consultoria</title>
 </head>
+
 <body>
-    <header>
-        <div class="barra_superior"></div>
-        
-        <nav class="navbar_xd">
-            <div class="nav_contenido">
-                <div class="logo">
+
+<header>
+    <div class="barra_superior"></div>
+    
+    <nav class="navbar_xd">
+        <div class="nav_contenido">
+            
+            <div class="logo">
                 <img src="#" alt="Logo">
             </div>
 
             <div class="nav_links">
-                <a href="../index.php" class="activo">Inicio</a>
+                <a href="../index.php">Inicio</a>
                 <a href="../Pages/Presentacion.php">Presentación</a>
                 <a href="../Pages/Servicios.php">Servicios</a>
                 <a href="../Pages/Quienes_somos.php">Quienes somos</a>
-                <a href="../Pages/Contactos.php" class="nav_boton">Contacto</a>
+                <a href="../Pages/Contactos.php" class="nav_boton activo">Contacto</a>
             </div>
+
         </div>
     </nav>
-    </header>
-    
+</header>
+
+
+<!-- ===== SECCIÓN CONTACTO NUEVA ===== -->
+
+<div class="contacto_wrapper">
+
+    <h1 class="contacto_grande">CONTÁCTANOS</h1>
+
+    <p class="contacto_desc">
+        Si estás interesado en nuestro trabajo, querés realizar una consulta o colaborar con nosotros,
+        podés comunicarte directamente completando el siguiente formulario.
+    </p>
+
+    <div class="contacto_contenedor">
+
+        <form method="POST" class="form_contacto">
+            
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            
+            <input type="email" name="email" placeholder="Email" required>
+            
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            
+            <button type="submit" name="enviar" class="btn_contacto">
+                Enviar mensaje
+            </button>
+
+        </form>
+
+    </div>
 
 </div>
-<div class="contacto_contenedor">
-    <h2 class="contacto_titulo">Contacto</h2>
 
-    <form method="POST" class="form_contacto">
-        
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        
-        <input type="email" name="email" placeholder="Email" required>
-        
-        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-        
-        <button type="submit" name="enviar">Enviar mensaje</button>
-    
-    </form>
-</div>
-    <footer>
-        <div class="footer">
-            <div class="footer_texto" id="footerAuto"></div>
-            <img src="./Img/logo escuela.png" class="logo_escuela" alt="Imagen no encontrada">
-        </div>
 
-        
-    </footer>
-    
-    <script src="../JS/Footer.js"></script>
+<footer>
+    <div class="footer">
+        <div class="footer_texto" id="footerAuto"></div>
+        <img src="./Img/logo escuela.png" class="logo_escuela" alt="Imagen no encontrada">
+    </div>
+</footer>
+
+<script src="../JS/Footer.js"></script>
+
 </body>
 </html>
+```

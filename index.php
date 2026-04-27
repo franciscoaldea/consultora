@@ -15,7 +15,7 @@
         <nav class="navbar_xd">
             <div class="nav_contenido">
                 <div class="logo">
-                <img src="#" alt="Logo">
+                <img src="./Img/LOGO.png" alt="Logo">
             </div>
 
             <div class="nav_links">
@@ -33,22 +33,25 @@
          <div id="carouselExampleSlidesOnly" class="carousel slide carrusel_67" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="./Img/imagen momentanea.png" class="d-block w-100">
+                <img src="./Img/CINE.png" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="./Img/imagen momentanea.png" class="d-block w-100">
+                <img src="./Img/JUEGO.png" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="./Img/imagen momentanea.png" class="d-block w-100">
+                <img src="./Img/PAÑOL.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Img/PAG.png" class="d-block w-100">
             </div>
         </div>
     </div>
     
     <div class="info">
-        <img src="./Img/imagen momentanea.png" class="logo_grande">
+        <img src="./Img/LOGO.png" class="logo_grande">
 
         <p class="presentacion">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt deleniti molestias iure blanditiis vero ea id iste pariatur asperiores quis rerum reiciendis similique, quas aliquam.
+            Bienvenidos, a chefsito's games. Una consultora apasionada por los videojuegos. A medida que te desplaces por nuestra pagina veras nuestro recorrido profesional y de lo que somos capaces.
         </p>
     </div>
 

@@ -410,3 +410,60 @@ body{
         linear-gradient(90deg, white 1px, transparent 1px);
     background-size: 40px 40px; 
 }
+
+/* ----- ESTILO GENERAL DEL CONTENEDOR ----- */
+
+.contacto_wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título grande estilo referencia */
+.contacto_grande {
+    font-size: 60px;
+    font-weight: 900;
+    color: #2b2f53;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* Subtexto introductorio */
+.contacto_desc {
+    font-size: 18px;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto 35px auto;
+    line-height: 1.5;
+}
+
+/* Caja del formulario */
+.contacto_contenedor {
+    width: 90%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    border: 2px solid #3b3e6e;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    margin: 0 auto;
+}
+
+/* Botón con estilo de tu página */
+.btn_contacto {
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #3b3e6e;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn_contacto:hover {
+    background: #2b2f53;
+    color: white;
+    border-color: #2b2f53;
+}

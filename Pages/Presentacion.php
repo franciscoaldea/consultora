@@ -36,7 +36,7 @@
         </div>
         
         <div class="presentacion_img">
-            <img src="../Img/imagen momentanea.png" alt="La imagen no se encuentra">
+            <img src="../Img/LOGO.png" alt="La imagen no se encuentra">
         </div>
     </section>
 
