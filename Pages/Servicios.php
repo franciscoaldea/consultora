@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Styles.css">
+        <!--tipografia titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--tipografia texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Chefsito’s Consultoria</title>
 </head>
 <body>
@@ -13,7 +21,7 @@
         <nav class="navbar_xd">
             <div class="nav_contenido">
                 <div class="logo">
-                <img src="#" alt="Logo">
+                <img src="../Img/LOGO_peque.png" alt="Logo">
             </div>
 
             <div class="nav_links">
@@ -33,20 +41,20 @@
         <div class="cards_con">
             <div class="card card1">
                 <img src="../Img/imagen momentanea.png" alt="">
-                <h3>QR CONQUISTA</h3>
+                <h3>Qr Conquista</h3>
                 <p>QR Conquista fue desarrollado por nuestra empresa a pedido de la institución ET29, con el objetivo de optimizar la organización y el acceso a la información de aulas y laboratorios. Se trata de una aplicación móvil pensada para el ámbito escolar, que permite identificar cada espacio mediante un código QR. Al escanearlo con la cámara del celular, el usuario obtiene de manera inmediata los datos del aula division, especialidad y turno que la ocupan</p>
             </div>
             
             <div class="card card2">
                 <img src="../Img/JUEGO.png" alt="">
-                <h3>TIERRA DE LAS MANZANAS</h3>
+                <h3>Tierra de las Manzanas</h3>
                 <p>Tierra de las Manzanas es un videojuego desarrollado por nuestra empresa en sus inicios, creado con el objetivo de entretener a jugadores de todas las edades. Combina programación y diversión en una propuesta dinámica del género acción y aventura.</p>
                 <p>El juego ofrece la posibilidad de elegir entre distintos personajes para recorrer cada nivel, la misión principal consiste en recolectar la mayor cantidad de manzanas posibles, mientras se esquivan enemigos y obstáculos que desafían la habilidad del jugador. Al alcanzar la meta final, se avanza de nivel y aumenta la dificultad.</p>
             </div>
             
             <div class="card card3">
                 <img src="../Img/CINE.png" alt="">
-                <h3>PROYECTO CINE</h3>
+                <h3>Proyecto Cine</h3>
                 <p>CINE es una página web desarrollada por nuestra empresa para la gestión integral de un cine. El proyecto surge de la necesidad del cliente de contar con una plataforma que no solo permite administrar funciones, entradas, salas y películas mediante una base de datos, sino que también ofrezca a los usuarios una experiencia completa. Esta web incluye un apartado de registro e inicio de sesión para los clientes, donde pueden elegir la función deseada y comprar sus entradas de manera rápida y segura.</p>
             </div>
             

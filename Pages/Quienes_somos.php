@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Styles.css">
+        <!--tipografia titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--tipografia texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Chefsito’s Consultoria</title>
 </head>
 <body class="fondo_cuadricula">
@@ -13,7 +21,7 @@
         <nav class="navbar_xd">
             <div class="nav_contenido">
                 <div class="logo">
-                <img src="#" alt="Logo">
+                <img src="../Img/LOGO_peque.png" alt="Logo">
             </div>
 
             <div class="nav_links">
@@ -47,13 +55,21 @@
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>SABRI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Diseño UX/UI</li>
+                    <li>Desarrollo Frontend</li>
+                    <li>Implementación de interfaces gráficas</li>
+                </ul>
             </div>
             
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>GIAN</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Diseñador de base de datos</li>
+                    <li>Analista de sistemas</li>
+                    <li>Conocimientos intermedios de python</li>
+                </ul>
             </div>
 
             <div class="equipo_card">

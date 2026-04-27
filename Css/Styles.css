@@ -1,65 +1,4 @@
-.contacto_contenedor{
-    width: 90%;
-    max-width: 600px;
-    margin: 40px auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 20px;
-    border: 2px solid #3b3e6e;
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
-}
-
-.contacto_titulo{
-    text-align: center;
-    color: #2b2f53;
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-.form_contacto{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.form_contacto input,
-.form_contacto textarea{
-    padding: 12px;
-    border-radius: 10px;
-    border: 2px solid #3b3e6e;
-    font-size: 14px;
-    outline: none;
-    transition: 0.2s;
-}
-
-.form_contacto input:focus,
-.form_contacto textarea:focus{
-    border-color: #2b2f53;
-    box-shadow: 0px 0px 5px rgba(43,47,83,0.4);
-}
-
-.form_contacto textarea{
-    resize: none;
-    height: 120px;
-}
-
-.form_contacto button{
-    padding: 12px;
-    border-radius: 12px;
-    border: 2px solid #3b3e6e;
-    background: transparent;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.form_contacto button:hover{
-    background: #2b2f53;
-    color: white;
-}
-
 /*Configuración general de la página*/
-
 *{
     margin: 0;
     padding: 0;
@@ -69,6 +8,9 @@
 body{
     background-color: #faf2e7 !important;
     padding-bottom: 80px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    color: #333;
 }
 
 .barra_superior{
@@ -94,6 +36,7 @@ body{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .nav_contenido{
@@ -109,7 +52,7 @@ body{
 }
 
 .logo img{
-    width: 50px;
+    width: 100px;
 }
 
 .nav_links{
@@ -123,6 +66,7 @@ body{
     color: #000;
     font-size: 16px;
     font-weight: bold;
+    font-family: "Gabarito", sans-serif !important;
 }
 
 .nav_links a:hover{
@@ -217,6 +161,8 @@ body{
 
 .info{
     flex: 1;
+    font-family: "Nunito", sans-serif !important;
+    font-weight: bold;
 }
 
 .logo_grande{
@@ -227,7 +173,7 @@ body{
 }
 
 .presentacion{
-    margin-top: 15px;
+    margin-top: 0px;
     font-size: 16px;
 }
 
@@ -248,6 +194,7 @@ body{
     font-size: 48px;
     color: #2b2f53;
     margin-bottom: 20px;
+    font-family: "Gabarito", sans-serif;
 }
 
 .presentacion_tex p{
@@ -265,6 +212,7 @@ body{
     color: black;
     font-weight: bold;
     transition: 0.3s;
+    font-family: "Gabarito", sans-serif;
 }
 
 .contacto_btn:hover{
@@ -281,8 +229,7 @@ body{
 .presentacion_img img{
     width: 300px;
     border-radius: 20px;
-    border: 3px solid #ffffff;
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    margin-top: -70px;
 }
 
 /*Configuración de la pagina de servicios*/
@@ -295,6 +242,8 @@ body{
     font-size: 35px;
     color: #2b2f53;
     margin-bottom: 20px;
+    font-family: "Gabarito", sans-serif;
+    font-weight: bold;
 }
 
 .cards_con{
@@ -314,10 +263,6 @@ body{
     transition: transform 0.2s;
 }
 
-.card:hover{
-    transform: translateY(-5px);
-}
-
 .card img{
     width: 100%;
     height: 160px;
@@ -326,18 +271,19 @@ body{
 
 .card h3{
     color: #2b2f53;
-    font-size: 14px;
+    font-size: 18px;
     margin: 12px 0 6px;
     font-weight: bold;
+    font-family: "Gabarito", sans-serif;
 }
 
 .card p{
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 15px;
 }
 
 .card1{
-    background: #d9d9d9;
+    background: #f3c97a;
 }
 
 .card2{
@@ -349,7 +295,7 @@ body{
 }
 
 .card4{
-    background: #f3c97a;
+    background: #d9d9d9 ;
 }
 
 /*Configuración de la pagina de quienes somos*/
@@ -362,6 +308,7 @@ body{
     font-size: 28px;
     color: #2b2f53;
     margin-bottom: 40px;
+    font-family: "Gabarito", sans-serif;
 }
 
 .equipo_cards{
@@ -380,6 +327,12 @@ body{
     transition: transform 0.2s;
 }
 
+.equipo_card ul {
+    text-align: left;
+    padding-left: 17px;  
+    margin: 0;          
+}
+
 .equipo_card:hover{
     transform: translateY(-5px);
 }
@@ -396,6 +349,7 @@ body{
     font-size: 20px;
     margin-bottom: 8px;
     color: #2b2f53;
+    font-family: "Gabarito", sans-serif;
 }
 
 .equipo_card p{
@@ -411,8 +365,7 @@ body{
     background-size: 40px 40px; 
 }
 
-/* ----- ESTILO GENERAL DEL CONTENEDOR ----- */
-
+/*pag contactro*/
 .contacto_wrapper {
     width: 100%;
     max-width: 900px;
@@ -421,49 +374,64 @@ body{
     padding: 20px;
 }
 
-/* Título grande estilo referencia */
+.contacto_desc {
+    font-size: 16px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
 .contacto_grande {
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
     color: #2b2f53;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    font-family: "Gabarito", sans-serif;
 }
 
-/* Subtexto introductorio */
-.contacto_desc {
-    font-size: 18px;
-    color: #333;
-    max-width: 700px;
-    margin: 0 auto 35px auto;
-    line-height: 1.5;
-}
-
-/* Caja del formulario */
-.contacto_contenedor {
+.contacto_formulario{
     width: 90%;
-    max-width: 600px;
-    background: #ffffff;
-    padding: 40px 30px;
-    border-radius: 20px;
-    border: 2px solid #3b3e6e;
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    max-width: 650px;
     margin: 0 auto;
 }
 
-/* Botón con estilo de tu página */
-.btn_contacto {
-    padding: 12px;
-    border-radius: 12px;
-    border: 2px solid #3b3e6e;
-    background: transparent;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
+.fila_inputs{
+    display: flex;
+    gap: 15px;
 }
 
-.btn_contacto:hover {
-    background: #2b2f53;
-    color: white;
-    border-color: #2b2f53;
+.form_contacto input,.form_contacto textarea{
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background: #e6e1d4;
+    font-size: 16px;
+    outline: none;
+    font-family: "Gabarito", sans-serif;
+}
+
+.form_contacto textarea{
+    margin-top: 15px;
+    min-height: 160px;
+    resize: none;
+    font-family: "Gabarito", sans-serif;
+}
+
+.btn_contacto {
+    margin-top: 30px;
+    width: 100%;
+    padding: 18px;
+    border-radius: 40px;
+    border: none;
+    background: #2b2f53 !important;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px rgb(17, 17, 17); 
+    transition: 0.2s ease-in-out;
+    font-family: "Gabarito", sans-serif;
 }

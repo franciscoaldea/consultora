@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/Styles.css">
+        <!--tipografia titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--tipografia texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Chefsito’s Consultoria</title>
 </head>
 <body>
@@ -13,7 +21,7 @@
         <nav class="navbar_xd">
             <div class="nav_contenido">
                 <div class="logo">
-                <img src="#" alt="Logo">
+                <img src="../Img/LOGO_peque.png" alt="Logo">
             </div>
 
             <div class="nav_links">
@@ -45,7 +53,7 @@
     <footer>
         <div class="footer">
             <div class="footer_texto" id="footerAuto"></div>
-            <img src="./Img/logo escuela.png" class="logo_escuela" alt="Imagen no encontrada">
+            <img src="../Img/logo escuela.png" class="logo_escuela" alt="Imagen no encontrada">
         </div>
         
     </footer>

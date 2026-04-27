@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="./Css/Styles.css">
         <!--link d bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!--tipografia titulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--tipografia texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Antonio:wght@100..700&family=Gabarito:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <title>Chefsito’s Consultoria</title>
 </head>
 <body>
@@ -15,7 +23,7 @@
         <nav class="navbar_xd">
             <div class="nav_contenido">
                 <div class="logo">
-                <img src="./Img/LOGO.png" alt="Logo">
+                <img src="./Img/LOGO_peque.png" alt="Logo">
             </div>
 
             <div class="nav_links">
@@ -42,7 +50,7 @@
                 <img src="./Img/PAÑOL.png" class="d-block w-100">
             </div>
             <div class="carousel-item">
-                <img src="./Img/PAG.png" class="d-block w-100">
+                <img src="./Img/PAG_JUEGO.png" class="d-block w-100">
             </div>
         </div>
     </div>
