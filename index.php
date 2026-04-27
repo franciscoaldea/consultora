@@ -59,7 +59,7 @@
         <img src="./Img/LOGO.png" class="logo_grande">
 
         <p class="presentacion">
-            Bienvenidos, a chefsito's games. Una consultora apasionada por los videojuegos. A medida que te desplaces por nuestra pagina veras nuestro recorrido profesional y de lo que somos capaces.
+            Bienvenidos, a chefsito's games. Una consultora especializada en software de alto rendimiento. A medida que te desplaces por nuestra pagina veras nuestro recorrido profesional y de lo que somos capaces.
         </p>
     </div>
 
