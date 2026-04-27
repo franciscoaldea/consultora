@@ -40,7 +40,7 @@
         
         <div class="cards_con">
             <div class="card card1">
-                <img src="../Img/imagen momentanea.png" alt="">
+                <img src="../Img/QRCONQUISTA.png" alt="">
                 <h3>Qr Conquista</h3>
                 <p>QR Conquista fue desarrollado por nuestra empresa a pedido de la institución ET29, con el objetivo de optimizar la organización y el acceso a la información de aulas y laboratorios. Se trata de una aplicación móvil pensada para el ámbito escolar, que permite identificar cada espacio mediante un código QR. Al escanearlo con la cámara del celular, el usuario obtiene de manera inmediata los datos del aula division, especialidad y turno que la ocupan</p>
             </div>

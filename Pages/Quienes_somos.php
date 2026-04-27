@@ -43,13 +43,23 @@
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>CARO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Desarrollo de diagramas</li>
+                    <li>Documentación del proyecto</li>
+                    <li>Mockups y entrevistas con el cliente</li>
+                    <li>Testing</li>
+                </ul>
             </div>
             
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>SOFI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Desarrollo de diagramas</li>
+                    <li>Team líder del proyecto</li>
+                    <li>Documentación del desarrollo</li>
+                    <li>Entrevistas y testing del producto final</li>
+                </ul>
             </div>
             
             <div class="equipo_card">
@@ -75,13 +85,21 @@
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>TOBI</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Diseño del proyecto</li>
+                    <li>Analista</li>
+                    <li>Gestión del presupuesto del proyecto</li>
+                </ul>
             </div>
 
             <div class="equipo_card">
                 <img src="../Img/uss.webp" alt="">
                 <h3>FRAN</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, repudiandae temporibus iusto velit ipsa praesentium.</p>
+                <ul>
+                    <li>Desarrollo de interfaces</li>
+                    <li>Programación general</li>
+                    <li>Implementación técnica del sistema</li>
+                </ul>
             </div>
         </div>
     </section>
