@@ -38,22 +38,22 @@
             </div>
             
             <div class="card card2">
-                <img src="../Img/imagen momentanea.png" alt="">
+                <img src="../Img/JUEGO.png" alt="">
                 <h3>TIERRA DE LAS MANZANAS</h3>
                 <p>Tierra de las Manzanas es un videojuego desarrollado por nuestra empresa en sus inicios, creado con el objetivo de entretener a jugadores de todas las edades. Combina programación y diversión en una propuesta dinámica del género acción y aventura.</p>
                 <p>El juego ofrece la posibilidad de elegir entre distintos personajes para recorrer cada nivel, la misión principal consiste en recolectar la mayor cantidad de manzanas posibles, mientras se esquivan enemigos y obstáculos que desafían la habilidad del jugador. Al alcanzar la meta final, se avanza de nivel y aumenta la dificultad.</p>
             </div>
             
             <div class="card card3">
-                <img src="../Img/imagen momentanea.png" alt="">
+                <img src="../Img/CINE.png" alt="">
                 <h3>PROYECTO CINE</h3>
                 <p>CINE es una página web desarrollada por nuestra empresa para la gestión integral de un cine. El proyecto surge de la necesidad del cliente de contar con una plataforma que no solo permite administrar funciones, entradas, salas y películas mediante una base de datos, sino que también ofrezca a los usuarios una experiencia completa. Esta web incluye un apartado de registro e inicio de sesión para los clientes, donde pueden elegir la función deseada y comprar sus entradas de manera rápida y segura.</p>
             </div>
             
             <div class="card card4">
-                <img src="../Img/imagen momentanea.png" alt="">
-                <h3>Título 4</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat asperiores obcaecati, ipsam sequi beatae saepe.</p>
+                <img src="../Img/PAÑOL.png" alt="">
+                <h3>Sistema Pañol</h3>
+                <p>El proyecto Pañol es un sistema de control de stock desarrollado por nuestra empresa, para la gestión integral del pañol de nuestra escuela. El proyecto surge de la necesidad del cliente de contar con una plataforma que no solo permite administrar herramientas, materiales y notebooks mediante una base de datos, sino que también ofrezca a los usuarios una experiencia completa. Este sistema incluye un apartado donde el jefe de pañol y sus ayudantes pueden ingresar los elementos y llevar un registro de su disponibilidad de manera rápida y organizada.</p>
             </div>
         </div>
 
